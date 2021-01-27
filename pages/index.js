@@ -1,24 +1,14 @@
+import React from 'react';
 import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-
-import Head from 'next/head';
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
-
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -33,12 +23,22 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
   return (
     <>
       <Head>
         <title>Quiz | Notícia Verdadeira</title>
-        <meta property="og:image" content="https://images.unsplash.com/photo-1611421964872-fb20b3f66991?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=665&q=80"/>
-        <meta property="og:title" content="Quiz | Notícia Verdadeira" key="title" />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1611421964872-fb20b3f66991?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=665&q=80"
+        />
+        <meta
+          property="og:title"
+          content="Quiz | Notícia Verdadeira"
+          key="title"
+        />
       </Head>
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
@@ -49,6 +49,25 @@ export default function Home() {
             </Widget.Header>
             <Widget.Content>
               <p>Teste os seus conhecimentos gerais!</p>
+              <form
+                onSubmit={(infosDoEvento) => {
+                  infosDoEvento.preventDefault();
+                  router.push(`/quiz?name=${name}`);
+                }}
+              >
+                <input
+                  onChange={(infosDoEvento) => {
+                    setName(infosDoEvento.target.value);
+                  }}
+                  type="text"
+                  placeholder="Digite seu nome"
+                  required
+                />
+                <button type="submit" disabled={name.length === 0}>
+                  Jogar
+                  {` ${name}`}
+                </button>
+              </form>
             </Widget.Content>
           </Widget>
           <Widget>
