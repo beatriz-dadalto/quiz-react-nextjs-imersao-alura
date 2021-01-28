@@ -24,13 +24,13 @@
   "external": [""],
   "theme": {
     "colors": {
-      "primary": "#171B35",
-      "secondary": "#6d1b7b",
-      "mainBg": "#171B35",
+      "primary": "#2E0E70",
+      "secondary": "#2E0E70",
+      "mainBg": "#141835",
       "contrastText": "#76ff03",
       "wrong": "#FF5722",
       "success": "#76ff03"
     },
-    "borderRadius": "4px"
+    "borderRadius": "2px"
   }
 }
