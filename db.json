@@ -1,10 +1,10 @@
 {
   "bg": "https://images.unsplash.com/photo-1611421964872-fb20b3f66991?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=665&q=80",
   "title": "Quiz | Qual notícia é verdadeira?",
-  "description": "acerte as notícias",
+  "description": "Acerte as notícias",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "link",
       "title": "Qual notícia é verdadeira?",
       "description": "Você ta manjando sobre o CORONGA VAIRUS? Responda:",
       "answer": 4,
@@ -17,7 +17,20 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "link",
+      "title": "Qual notícia é verdadeira?",
+      "description": "Acerta essa, mano",
+      "answer": 1,
+      "alternatives": [
+        "Paolla Oliveira dança em TikTok e viraliza após queda em vídeo.",
+        "Ex-loira do grupo 'É o Tchan' posa com fuzil durante patrulha da polícia.",
+        "Carla Perez explica 'olhos apertadinhos' em foto com Xanddy: 'Se me faz bem, que mal tem?'.",
+        "Whindersson Nunes descarta vontade de fazer procedimento estético.",
+        "Vera Fischer posa só de camiseta e mamilos 'à mostra'."
+      ]
+    },
+    {
+      "image": "link",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, parça.",
       "answer": 4,
@@ -30,20 +43,45 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "link",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, mano.",
       "answer": 0,
       "alternatives": [
-        "Nubank Levanta 400 milhões de dólares junto a investidores em janeiro de 2021, o que deixou a fintech com uma avaliação de 25 bilhões de dólares.",
-        "Com 100 milhões de clientes, Nubank já vale US$ 25 bilhões.",
+        "Nubank Levanta 400 milhões de dólares junto a investidores em janeiro de 2021, o que deixou a fintech com uma avaliação de US$ 25 bilhões de dólares.",
+        "Com 100 milhões de clientes, Nubank já vale US$ 25 bilhões de dólares.",
         "Nubank e Banco Inter ultrapassam em valor de mercado e já valem mais que o Banco do Brasil que vale atualmente 18 bilhões de dólares.",
         "Todas são falsas.",
         "Todas são verdadeiras."
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "link",
+      "title": "Qual notícia é verdadeira?",
+      "description": "Acerta essa, brother.",
+      "answer": 0,
+      "alternatives": [
+        "O atacante Neymar, do Paris Saint-Germain, foi suspenso por 1 jogo pela Comissão Disciplinar do Campeonato Francês. O brasileiro pegou gancho por ter recebido 3 cartões amarelos em um período de 10 jogos.",
+        "Após sofrer falta polêmica, Neymar faz golaço histórico de falta e leva Paris Saint-Germain a final da Liga Dos Campeões.",
+        "Desde agosto de 2017 na França, o atacante Neymar recebeu uma medalha em janeiro de 2021 por completar 300 jogos atuando com a camisa do Paris Saint-Germain.",
+        "Todas são falsas"
+      ]
+    },
+    {
+      "image": "link",
+      "title": "Qual notícia é verdadeira?",
+      "description": "Acerta essa, campeão.",
+      "answer": 2,
+      "alternatives": [
+        "Ferrari anuncia parceria para a construção de iate elétrico.",
+        "Microsoft se junta a GM e investe R$ 50 bi em startup de veículos autônomos.",
+        "Saída da Ford do Brasil deveria impulsionar mobilidade sustentável no país.",
+        "Tesla Model S e Model X ganham atualização: ficam sem volante futurista, mas contam com 2.000 cv.",
+        "Prestes a se despedir, Ford Ka tem maior valorização entre mais vendidos."
+      ]
+    },
+    {
+      "image": "link",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, truta.",
       "answer": 0,
@@ -56,15 +94,16 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "link",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, brother.",
-      "answer": 0,
+      "description": "Acerta essa, irmão.",
+      "answer": 3,
       "alternatives": [
-        "O atacante Neymar, do Paris Saint-Germain, foi suspenso por 1 jogo pela Comissão Disciplinar do Campeonato Francês. O brasileiro pegou gancho por ter recebido 3 cartões amarelos em um período de 10 jogos. A suspensão passa a valer a partir de 02/02/2021.",
-        "Após resultado positivo para COVID-19, Neymar fica de fora do jogo de Domingo 31/01/2021 pela 22ª rodada do campeonato Francês.",
-        "Após sofrer falta polêmica, Neymar faz golaço histórico de falta e leva Paris Saint-Germain a final da Liga Dos Campeões.",
-        "Desde agosto de 2017 na França, o atacante Neymar recebeu uma medalha em janeiro de 2021 por completar 300 jogos atuando com a camisa do Paris Saint-Germain."
+        "Escola deve ser a primeira a fechar', diz secretário de Educação de São Paulo.",
+        "Prefeitura do Rio publica decreto que autoriza volta às aulas na segunda.",
+        "5,5 milhões estavam sem atividades escolares em outubro, diz Unicef.",
+        "Após acusação de racismo, Inep muda gabarito de questões do Enem 2020.",
+        "Justiça veta volta das aulas presenciais no estado do Rio; governo recorrerá."
       ]
     }
   ],

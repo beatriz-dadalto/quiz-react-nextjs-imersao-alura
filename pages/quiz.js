@@ -14,7 +14,7 @@ function ResultWidget({ results }) {
     return results.reduce((somatoria, resultadoAtual) => {
       const isAcerto = resultadoAtual === true;
       if (isAcerto) {
-        return somatoria + 1;
+        return somatoria + 1000;
       }
       return somatoria;
     }, 0);
@@ -41,7 +41,7 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <h2>
-          <strong>{`Você acertou ${getScore()} perguntas!`}</strong>
+          <strong>{`Você fez ${getScore()} pontos!`}</strong>
         </h2>
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
@@ -80,7 +80,7 @@ function QuestionWidget({
 
       <img
         src={question.image}
-        alt="Descrição"
+        alt=""
         style={{
           width: '100%',
           height: '150px',
@@ -102,7 +102,7 @@ function QuestionWidget({
             onSubmit();
             setIsQuestionSubmited(false);
             setSelectedAlternative(undefined);
-          }, 4 * 1000);
+          }, 3 * 1000);
         }}
       >
         {question.alternatives.map((alternative, alternativeIndex) => {
