@@ -4,7 +4,7 @@
   "description": "Acerte as notícias",
   "questions": [
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/3og0IV5cAmtbkeKPBe/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Você ta manjando sobre o CORONGA VAIRUS? Responda:",
       "answer": 4,
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/xUA7b6vHi778bTElqg/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, mano",
       "answer": 1,
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/KzzcDujlIFIavC8knA/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, parça.",
       "answer": 4,
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/USUIWSteF8DJoc5Snd/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, mano.",
       "answer": 0,
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/fnVT0pRGmr1WnuETld/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, brother.",
       "answer": 0,
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/3oKIPqdmHD5lr6bf5C/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, campeão.",
       "answer": 2,
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/U3JXX3nw1FbYWqJlPB/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, truta.",
       "answer": 0,
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "image": "link",
+      "image": "https://media.giphy.com/media/q8C0Ljmy4F6Ss/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, irmão.",
       "answer": 3,
