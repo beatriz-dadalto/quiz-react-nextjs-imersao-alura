@@ -8,6 +8,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
 import Button from '../src/components/Button';
 import AlternativesForm from '../src/components/AlternativesForm';
+import GitHubCorner from '../src/components/GitHubCorner';
 
 function ResultWidget({ results }) {
   function getScore() {
@@ -45,6 +46,7 @@ function ResultWidget({ results }) {
         </h2>
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
+      <GitHubCorner projectUrl="https://github.com/biacoelho" />
     </Widget>
   );
 }
@@ -135,6 +137,7 @@ function QuestionWidget({
         {/* {isQuestionSubmited && isCorrect && <p>Você acertou!</p>} */}
         {/* {isQuestionSubmited && !isCorrect && <p>Você errou!</p>} */}
       </AlternativesForm>
+      <GitHubCorner projectUrl="https://github.com/biacoelho" />
     </Widget>
   );
 }
