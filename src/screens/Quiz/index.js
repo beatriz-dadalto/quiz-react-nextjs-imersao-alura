@@ -1,14 +1,17 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-import db from '../db.json';
-import QuizContainer from '../src/components/QuizContainer';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizLogo from '../src/components/QuizLogo';
-import Widget from '../src/components/Widget';
-import Button from '../src/components/Button';
-import AlternativesForm from '../src/components/AlternativesForm';
-import GitHubCorner from '../src/components/GitHubCorner';
+import { Lottie } from '@crello/react-lottie';
+import QuizContainer from '../../components/QuizContainer';
+import QuizBackground from '../../components/QuizBackground';
+import QuizLogo from '../../components/QuizLogo';
+import Widget from '../../components/Widget';
+import Button from '../../components/Button';
+import AlternativesForm from '../../components/AlternativesForm';
+import GitHubCorner from '../../components/GitHubCorner';
+import BackLinkArrow from '../../components/BackLinkArrow';
+import QuizPlayAgain from '../../components/QuizPlayAgain';
+import loadingAnimation from './animations/loading.json';
 
 function ResultWidget({ results }) {
   function getScore() {
@@ -47,6 +50,7 @@ function ResultWidget({ results }) {
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
       <GitHubCorner projectUrl="https://github.com/biacoelho" />
+      <QuizPlayAgain href="/" />
     </Widget>
   );
 }
@@ -55,10 +59,17 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        <strong>Carregando...</strong>
+        <strong>JÁ VAI COMEÇAR...</strong>
       </Widget.Header>
 
-      <Widget.Content>[Aguarde o desafio ser carregado]</Widget.Content>
+      <Widget.Content style={{ display: 'flex', justifyContent: 'center' }}>
+        <Lottie
+          width="200px"
+          height="200px"
+          className="lottie-container basic"
+          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+        />
+      </Widget.Content>
     </Widget>
   );
 }
@@ -77,6 +88,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>{`Pergunta ${questionIndex + 1} de ${totalQuestions}`}</h3>
       </Widget.Header>
 
@@ -148,13 +160,14 @@ const screenStates = {
   RESULT: 'RESULT',
 };
 
-function QuizPage() {
+function QuizPage({ externalQuestions, externalBg }) {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [results, setResults] = React.useState([]);
-  const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;
-  const question = db.questions[questionIndex];
+  const question = externalQuestions[questionIndex];
+  const totalQuestions = externalQuestions.length;
+  const bg = externalBg;
 
   function addResult(result) {
     setResults([
@@ -166,7 +179,7 @@ function QuizPage() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 1 * 2000);
   }, []);
 
   function handleSubmitQuiz() {
@@ -179,7 +192,7 @@ function QuizPage() {
   }
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={bg}>
       <QuizContainer>
         <QuizLogo />
         {screenState === screenStates.QUIZ && (

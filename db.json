@@ -91,22 +91,13 @@
         "A e B estão corretas.",
         "B e C estão corretas."
       ]
-    },
-    {
-      "image": "https://media.giphy.com/media/q8C0Ljmy4F6Ss/giphy.gif",
-      "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, irmão.",
-      "answer": 3,
-      "alternatives": [
-        "Escola deve ser a primeira a fechar', diz secretário de Educação de São Paulo.",
-        "Prefeitura do Rio publica decreto que autoriza volta às aulas na segunda.",
-        "5,5 milhões estavam sem atividades escolares em outubro, diz Unicef.",
-        "Após acusação de racismo, Inep muda gabarito de questões do Enem 2020.",
-        "Justiça veta volta das aulas presenciais no estado do Rio; governo recorrerá."
-      ]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://show-do-milhao.thcarvalho.vercel.app/",
+    "https://quiz-padrao-projetos.thassya.vercel.app/",
+    "https://aluraquiz-tech.pablooks.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#2E0E70",
