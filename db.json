@@ -96,12 +96,12 @@
   "external": [
     "https://show-do-milhao.thcarvalho.vercel.app/",
     "https://quiz-padrao-projetos.thassya.vercel.app/",
-    "https://aluraquiz-tech.pablooks.vercel.app/"
+    "https://aluraquiz-base.silsantana.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#2E0E70",
-      "secondary": "#2E0E70",
+      "primary": "#550C86",
+      "secondary": "#550C86",
       "mainBg": "#141835",
       "contrastText": "#76ff03",
       "wrong": "#9C0614",
