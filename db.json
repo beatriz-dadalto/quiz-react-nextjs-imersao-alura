@@ -98,6 +98,18 @@
     "https://quiz-padrao-projetos.thassya.vercel.app/",
     "https://aluraquiz-base.silsantana.vercel.app/"
   ],
+  "correctAnswerLink": [
+    "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/ap%C3%B3s-aporte-de-us-400-milh%C3%B5es-nubank-est%C3%A1-avaliado-em-us-25-bilh%C3%B5es/ar-BB1daVal",
+    "https://tvefamosos.uol.com.br/noticias/redacao/2021/01/28/ex-loira-do-tchan-posa-com-fuzil-durante-patrulha-da-policia.htm",
+    "https://noticias.uol.com.br/internacional/ultimas-noticias/2021/01/28/menina-de-12-anos-limpa-lapides-por-hobby-e-sonha-em-trabalhar-no-cemiterio.htm",
+    "https://noticias.uol.com.br/internacional/ultimas-noticias/2021/01/26/suspeita-de-esfaquear-marido-no-mexico-se-confundiu-com-amante-em-foto.htm",
+    "https://noticias.uol.com.br/internacional/ultimas-noticias/2021/01/26/homem-modificacoes-corporais-franca.htm",
+    "https://noticias.uol.com.br/internacional/ultimas-noticias/2021/01/28/apos-ser-preso-por-fazer-sexo-em-roda-gigante-casal-e-detido-mais-uma-vez.htm",
+    "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2021/01/27/neymar-e-suspenso-no-frances-por-receber-tres-cartoes-amarelos-em-10-jogos.htm",
+    "https://www.uol.com.br/carros/colunas/kelly-fernandes/2021/01/15/saida-da-ford-do-brasil-deveria-impulsionar-mobilidade-sustentavel-no-pais.htm",
+    "https://www.espn.com.br/mma/artigo/_/id/8036236/ufc-e-agencia-antidoping-norte-americana-anunciam-fim-da-suspensao-por-uso-de-maconha",
+    "https://www1.folha.uol.com.br/mundo/2021/01/brasil-e-o-pais-que-pior-lidou-com-a-pandemia-aponta-estudo-que-analisou-98-governos.shtml"
+  ],
   "theme": {
     "colors": {
       "primary": "#550C86",
