@@ -2,7 +2,7 @@
 
 [https://quiz-noticia-verdadeira.biacoelho.vercel.app/](https://quiz-noticia-verdadeira.biacoelho.vercel.app/)
 
-Feito com na imersão Alura JAN/2021
+Feito na imersão Alura JAN/2021
 
 #### Tecnologias:
 - React
