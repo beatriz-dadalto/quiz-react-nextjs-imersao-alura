@@ -16,7 +16,7 @@ export default function QuizDaGaleraPage({ dbExterno }) {
 }
 
 export async function getServerSideProps(context) {
-  const [projectName, githubUser] = context.query.id.split('__');
+  const [projectName, githubUser] = context.query.id.split('___');
 
   try {
     const dbExterno = await fetch(`https://${projectName}.${githubUser}.vercel.app/api/db`)

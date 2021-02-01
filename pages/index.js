@@ -88,8 +88,8 @@ export default function Home() {
             </Widget.Header>
             <Widget.Content>
               <p>
-                Jogue outros Quizes legais dos meus colegas. Esses projetos foram
-                desenvolvidos durante a #imersaoAlura NextJS!
+                ‣ Jogue outros quizes legais dos meus colegas. O tema do quiz foi livre e cada
+                participante escolheu um tema que gosta. #imersaoAlura!
               </p>
               <ul>
                 {db.external.map((linkExterno) => {
@@ -103,7 +103,7 @@ export default function Home() {
                     <li key={linkExterno}>
                       <Widget.Topic
                         as={Link}
-                        href={`/quiz/${projectName}__${githubUser}`}
+                        href={`/quiz/${projectName}___${githubUser}`}
                       >
                         {`${githubUser}/${projectName}`}
                       </Widget.Topic>
