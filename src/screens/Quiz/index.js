@@ -29,7 +29,7 @@ function ResultWidget({ results }) {
     return results.map((result, index) => (
       <li key={`result__${result}`}>
         {`Pergunta ${index + 1} : `}
-        {result ? '☑️ acertou' : '❌ errou'}
+        {result ? '✅ acertou' : '❌ errou'}
       </li>
     ));
   }
@@ -39,7 +39,9 @@ function ResultWidget({ results }) {
       <Widget.Header>
         <h1>
           <strong>
-            <i>SUA PONTUAÇÃO, PARÇA :</i>
+            🏁
+            {' '}
+            <i>SUA PONTUAÇÃO :</i>
           </strong>
         </h1>
       </Widget.Header>

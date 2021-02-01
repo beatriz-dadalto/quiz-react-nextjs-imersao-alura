@@ -19,7 +19,7 @@
     {
       "image": "https://media.giphy.com/media/USUIWSteF8DJoc5Snd/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "👽 Acerta essa, mano.",
+      "description": "👽 Acerta essa, irmão.",
       "answer": 0,
       "alternatives": [
         "Nubank Levanta 400 milhões de dólares junto a investidores em janeiro de 2021, o que deixou a fintech com uma avaliação de US$ 25 bilhões de dólares.",
@@ -32,7 +32,7 @@
     {
       "image": "https://media.giphy.com/media/xUA7b6vHi778bTElqg/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "👽 Acerta essa, mano",
+      "description": "👽 Acerta essa, mano.",
       "answer": 1,
       "alternatives": [
         "Paolla Oliveira dança em TikTok e viraliza após queda em vídeo.",
@@ -113,8 +113,8 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#1D2245",
-      "secondary": "#1D2245",
+      "primary": "#202651",
+      "secondary": "#202651",
       "mainBg": "#141835",
       "contrastText": "#68DF03",
       "wrong": "#9C0614",

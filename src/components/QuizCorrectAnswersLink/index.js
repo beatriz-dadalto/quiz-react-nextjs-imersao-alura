@@ -31,7 +31,7 @@ function QuizCorrectAnswersLink() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {index === 0 || index === 1 || index === 2 || index === 3 ? `🔥 Ler : Pergunta 1 é ${questionAlternative[index]}` : `🔥 Ler : Pergunta ${index - 2} é ${questionAlternative[index]}`}
+                  {index === 0 || index === 1 || index === 2 || index === 3 ? `🔥 Ler: Pergunta 1 é verdade ${questionAlternative[index]}` : `🔥 Ler: Pergunta ${index - 2} é verdade ${questionAlternative[index]}`}
                 </Widget.Topic>
               </li>
             ))}
