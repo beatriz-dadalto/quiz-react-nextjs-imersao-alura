@@ -6,7 +6,7 @@
     {
       "image": "https://media.giphy.com/media/KzzcDujlIFIavC8knA/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, parça.",
+      "description": "👽 Acerta essa, parça.",
       "answer": 4,
       "alternatives": [
         "Menina de 12 anos limpa lápides por hobby e sonha em trabalhar no cemitério.",
@@ -19,7 +19,7 @@
     {
       "image": "https://media.giphy.com/media/USUIWSteF8DJoc5Snd/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, mano.",
+      "description": "👽 Acerta essa, mano.",
       "answer": 0,
       "alternatives": [
         "Nubank Levanta 400 milhões de dólares junto a investidores em janeiro de 2021, o que deixou a fintech com uma avaliação de US$ 25 bilhões de dólares.",
@@ -32,7 +32,7 @@
     {
       "image": "https://media.giphy.com/media/xUA7b6vHi778bTElqg/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, mano",
+      "description": "👽 Acerta essa, mano",
       "answer": 1,
       "alternatives": [
         "Paolla Oliveira dança em TikTok e viraliza após queda em vídeo.",
@@ -45,7 +45,7 @@
     {
       "image": "https://media.giphy.com/media/fnVT0pRGmr1WnuETld/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, brother.",
+      "description": "👽 Acerta essa, brother.",
       "answer": 0,
       "alternatives": [
         "O atacante Neymar, do Paris Saint-Germain, foi suspenso por 1 jogo pela Comissão Disciplinar do Campeonato Francês. O brasileiro pegou gancho por ter recebido 3 cartões amarelos em um período de 10 jogos.",
@@ -57,7 +57,7 @@
     {
       "image": "https://media.giphy.com/media/3oKIPqdmHD5lr6bf5C/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, campeão.",
+      "description": "👽 Acerta essa, campeão.",
       "answer": 2,
       "alternatives": [
         "Ferrari anuncia parceria para a construção de iate elétrico.",
@@ -69,7 +69,7 @@
     {
       "image": "https://media.giphy.com/media/U3JXX3nw1FbYWqJlPB/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, truta.",
+      "description": "👽 Acerta essa, truta.",
       "answer": 0,
       "alternatives": [
         "UFC e agência antidoping norte-americana anunciam fim da suspensão por uso de maconha.",
@@ -82,7 +82,7 @@
     {
       "image": "https://media.giphy.com/media/3og0IV5cAmtbkeKPBe/giphy.gif",
       "title": "Qual notícia é verdadeira?",
-      "description": "Você ta manjando sobre o CORONGA VAIRUS? Responda:",
+      "description": "👽 CORONGA VAIRUS...",
       "answer": 4,
       "alternatives": [
         "Nova Zelândia foi classificada como a melhor gestão da crise sanitária no mundo.",
@@ -112,10 +112,10 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#550C86",
-      "secondary": "#550C86",
+      "primary": "#1D2245",
+      "secondary": "#1D2245",
       "mainBg": "#141835",
-      "contrastText": "#76ff03",
+      "contrastText": "#68DF03",
       "wrong": "#9C0614",
       "success": "#097F11"
     },

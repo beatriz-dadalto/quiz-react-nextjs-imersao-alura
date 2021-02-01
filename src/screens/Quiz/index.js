@@ -28,7 +28,7 @@ function ResultWidget({ results }) {
     return results.map((result, index) => (
       <li key={`result__${result}`}>
         {`Pergunta ${index + 1} : `}
-        {result ? 'Você acertou!' : 'Você errou!'}
+        {result ? '☑️ acertou' : '❌ errou'}
       </li>
     ));
   }
@@ -59,7 +59,7 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        <strong>JÁ VAI COMEÇAR...</strong>
+        <strong>JÁ VAI COMEÇAR</strong>
       </Widget.Header>
 
       <Widget.Content style={{ display: 'flex', justifyContent: 'center' }}>
@@ -151,7 +151,7 @@ function QuestionWidget({
           );
         })}
         <Button type="submit" disabled={!hasAlternativeSelected}>
-          Confirmar
+          Confirmar →
         </Button>
 
         {/* {isQuestionSubmited && isCorrect && <p>Você acertou!</p>} */}

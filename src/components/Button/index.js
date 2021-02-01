@@ -23,7 +23,7 @@ const Button = styled.button`
   }
 
   &:disabled {
-    background-color: #37324D;
+    background-color: #6C6F83;
     cursor: not-allowed;
     opacity: 0.7;
   }

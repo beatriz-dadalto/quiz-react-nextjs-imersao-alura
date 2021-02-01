@@ -46,7 +46,7 @@ export default function Home() {
             animate="show"
           >
             <Widget.Header>
-              <h1>QUAL NOTÍCIA É VERDADEIRA?</h1>
+              <h1>👽 QUAL NOTÍCIA É VERDADEIRA?</h1>
             </Widget.Header>
             <Widget.Content>
               <p>Teste os seus conhecimentos gerais!</p>
@@ -82,7 +82,7 @@ export default function Home() {
             animate="show"
           >
             <Widget.Header>
-              <h1>JOGAR MAIS</h1>
+              <h1>🎮 JOGAR MAIS</h1>
             </Widget.Header>
             <Widget.Content>
               <ul>

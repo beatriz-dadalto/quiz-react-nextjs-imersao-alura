@@ -19,7 +19,7 @@ function QuizCorrectAnswersLink() {
         animate="show"
       >
         <Widget.Header>
-          <h1>DESCUBRA A RESPOSTA</h1>
+          <h1>CLIQUE E LEIA AS RESPOSTAS</h1>
         </Widget.Header>
         <Widget.Content>
           <ul>
@@ -31,7 +31,7 @@ function QuizCorrectAnswersLink() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {index === 0 || index === 1 || index === 2 || index === 3 ? `Leia: Pergunta 1 = ${questionAlternative[index]}` : `Leia: Pergunta ${index - 2} = ${questionAlternative[index]}`}
+                  {index === 0 || index === 1 || index === 2 || index === 3 ? `🔥 Ler : Pergunta 1 é ${questionAlternative[index]}` : `🔥 Ler : Pergunta ${index - 2} é ${questionAlternative[index]}`}
                 </Widget.Topic>
               </li>
             ))}
