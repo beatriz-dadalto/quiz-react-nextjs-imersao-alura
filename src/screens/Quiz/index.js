@@ -19,7 +19,7 @@ function ResultWidget({ results }) {
     return results.reduce((somatoria, resultadoAtual) => {
       const isAcerto = resultadoAtual === true;
       if (isAcerto) {
-        return somatoria + 1000;
+        return somatoria + 1;
       }
       return somatoria;
     }, 0);
@@ -48,7 +48,9 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <h2>
-          <strong>{`Você fez ${getScore()} pontos!`}</strong>
+          <strong>
+            {`Você acertou ${getScore() === 1 ? `${getScore()} Notícia` : `${getScore()} Notícias`}`}
+          </strong>
         </h2>
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
