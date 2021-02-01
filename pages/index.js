@@ -13,6 +13,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 import Link from '../src/components/Link';
+import ShareSocialMedia from '../src/components/ShareSocialMedia';
 
 export default function Home() {
   const router = useRouter();
@@ -71,6 +72,7 @@ export default function Home() {
                 </Button>
               </form>
             </Widget.Content>
+            <ShareSocialMedia />
           </Widget>
           <Widget
             transition={{ delay: 0.5, duration: 0.5 }}
@@ -85,6 +87,10 @@ export default function Home() {
               <h1>🎮 JOGAR MAIS</h1>
             </Widget.Header>
             <Widget.Content>
+              <p>
+                Jogue outros Quizes legais dos meus colegas,
+                desenvolvidos durante a #imersaoAlura!
+              </p>
               <ul>
                 {db.external.map((linkExterno) => {
                   const [projectName, githubUser] = linkExterno

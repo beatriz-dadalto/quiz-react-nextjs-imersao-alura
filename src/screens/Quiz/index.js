@@ -12,6 +12,7 @@ import BackLinkArrow from '../../components/BackLinkArrow';
 import QuizPlayAgain from '../../components/QuizPlayAgain';
 import loadingAnimation from './animations/loading.json';
 import QuizCorrectAnswersLink from '../../components/QuizCorrectAnswersLink';
+import ShareSocialMedia from '../../components/ShareSocialMedia';
 
 function ResultWidget({ results }) {
   function getScore() {
@@ -50,6 +51,7 @@ function ResultWidget({ results }) {
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
       <GitHubCorner projectUrl="https://github.com/biacoelho" />
+      <ShareSocialMedia />
       <QuizPlayAgain href="/" />
     </Widget>
   );

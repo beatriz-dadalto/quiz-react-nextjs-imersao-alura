@@ -94,9 +94,10 @@
     }
   ],
   "external": [
-    "https://show-do-milhao.thcarvalho.vercel.app/",
-    "https://quiz-padrao-projetos.thassya.vercel.app/",
-    "https://aluraquiz-base.silsantana.vercel.app/"
+    "https://bitter-brewing-quiz.afuscella.vercel.app/",
+    "https://quizbase.romulopalaoro.vercel.app/",
+    "https://chessquiz-alura.leo0liveira.vercel.app/",
+    "https://quiz-padrao-projetos.thassya.vercel.app/"
   ],
   "correctAnswerLink": [
     "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/ap%C3%B3s-aporte-de-us-400-milh%C3%B5es-nubank-est%C3%A1-avaliado-em-us-25-bilh%C3%B5es/ar-BB1daVal",
