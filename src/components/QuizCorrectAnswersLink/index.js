@@ -19,7 +19,7 @@ function QuizCorrectAnswersLink() {
         animate="show"
       >
         <Widget.Header>
-          <h1>DESCUBRA A NOTÍCIA VERDADEIRA</h1>
+          <h1>DESCUBRA A RESPOSTA</h1>
         </Widget.Header>
         <Widget.Content>
           <ul>
