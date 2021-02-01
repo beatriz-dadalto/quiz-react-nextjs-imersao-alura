@@ -16,7 +16,8 @@
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
     "react-lottie": "^1.2.3",
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.0.0",
+    "styled-icons": "^10.27.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0",

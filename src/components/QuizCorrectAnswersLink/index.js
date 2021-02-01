@@ -1,9 +1,12 @@
 import React from 'react';
+
 import Widget from '../Widget';
 import Link from '../Link';
 import db from '../../../db.json';
 
 function QuizCorrectAnswersLink() {
+  const questionAlternative = ['A', 'B', 'C', 'D', 'A', 'B', 'A', 'C', 'A', 'E'];
+
   return (
     <>
       <Widget
@@ -16,17 +19,11 @@ function QuizCorrectAnswersLink() {
         animate="show"
       >
         <Widget.Header>
-          <h1>CONFERIR RESPOSTAS</h1>
+          <h1>DESCUBRA A NOTÍCIA VERDADEIRA</h1>
         </Widget.Header>
         <Widget.Content>
           <ul>
-            {db.correctAnswerLink.map((linkExterno) => (
-              // const [siteName, linkNews] = linkExterno
-              //   .replace(/\//g, '')
-              //   .replace('https:', '')
-              //   .replace('.vercel.app', '')
-              //   .split('.');
-
+            {db.correctAnswerLink.map((linkExterno, index) => (
               <li key={linkExterno}>
                 <Widget.Topic
                   as={Link}
@@ -34,7 +31,7 @@ function QuizCorrectAnswersLink() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {`${linkExterno}`}
+                  {index === 0 || index === 1 || index === 2 || index === 3 ? `Leia: Pergunta 1 = ${questionAlternative[index]}` : `Leia: Pergunta ${index - 2} = ${questionAlternative[index]}`}
                 </Widget.Topic>
               </li>
             ))}

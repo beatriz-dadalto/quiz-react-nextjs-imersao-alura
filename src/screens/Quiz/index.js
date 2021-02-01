@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-
 import { Lottie } from '@crello/react-lottie';
+import db from '../../../db.json';
 import QuizContainer from '../../components/QuizContainer';
 import QuizBackground from '../../components/QuizBackground';
 import QuizLogo from '../../components/QuizLogo';
@@ -13,6 +13,7 @@ import BackLinkArrow from '../../components/BackLinkArrow';
 import QuizPlayAgain from '../../components/QuizPlayAgain';
 import loadingAnimation from './animations/loading.json';
 import QuizCorrectAnswersLink from '../../components/QuizCorrectAnswersLink';
+import Link from '../../components/Link';
 
 function ResultWidget({ results }) {
   function getScore() {
@@ -69,7 +70,11 @@ function LoadingWidget() {
           width="200px"
           height="200px"
           className="lottie-container basic"
-          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+          config={{
+            animationData: loadingAnimation,
+            loop: true,
+            autoplay: true,
+          }}
         />
       </Widget.Content>
     </Widget>
@@ -77,7 +82,11 @@ function LoadingWidget() {
 }
 
 function QuestionWidget({
-  question, totalQuestions, questionIndex, onSubmit, addResult,
+  question,
+  totalQuestions,
+  questionIndex,
+  onSubmit,
+  addResult,
 }) {
   const [selectedAlternative, setSelectedAlternative] = React.useState(
     undefined,
@@ -172,10 +181,7 @@ function QuizPage({ externalQuestions, externalBg }) {
   const bg = externalBg;
 
   function addResult(result) {
-    setResults([
-      ...results,
-      result,
-    ]);
+    setResults([...results, result]);
   }
 
   React.useEffect(() => {
@@ -207,7 +213,9 @@ function QuizPage({ externalQuestions, externalBg }) {
           />
         )}
         {screenState === screenStates.LOADING && <LoadingWidget />}
-        {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+        {screenState === screenStates.RESULT && (
+          <ResultWidget results={results} />
+        )}
       </QuizContainer>
     </QuizBackground>
   );

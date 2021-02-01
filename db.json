@@ -4,6 +4,19 @@
   "description": "Acerte as notícias",
   "questions": [
     {
+      "image": "https://media.giphy.com/media/KzzcDujlIFIavC8knA/giphy.gif",
+      "title": "Qual notícia é verdadeira?",
+      "description": "Acerta essa, parça.",
+      "answer": 4,
+      "alternatives": [
+        "Menina de 12 anos limpa lápides por hobby e sonha em trabalhar no cemitério.",
+        "Mexicana esfaqueia marido após confundir ela mesma com 'amante' em foto.",
+        "Homem que já cobriu boa parte do corpo com tatuagens, bifurcou a língua e removeu parte do nariz, recentemente removeu um pedaço do lábio superior. Tudo isso para se transformar em um 'homem alienígena'.",
+        "Casal é preso pela 2ª vez por transar em público (agora em roda gigante).",
+        "Todas são verdadeiras."
+      ]
+    },
+    {
       "image": "https://media.giphy.com/media/USUIWSteF8DJoc5Snd/giphy.gif",
       "title": "Qual notícia é verdadeira?",
       "description": "Acerta essa, mano.",
@@ -27,19 +40,6 @@
         "Carla Perez explica 'olhos apertadinhos' em foto com Xanddy: 'Se me faz bem, que mal tem?'.",
         "Whindersson Nunes descarta vontade de fazer procedimento estético.",
         "Vera Fischer posa só de camiseta e mamilos 'à mostra'."
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/KzzcDujlIFIavC8knA/giphy.gif",
-      "title": "Qual notícia é verdadeira?",
-      "description": "Acerta essa, parça.",
-      "answer": 4,
-      "alternatives": [
-        "Menina de 12 anos limpa lápides por hobby e sonha em trabalhar no cemitério.",
-        "Mexicana esfaqueia marido após confundir ela mesma com 'amante' em foto.",
-        "Homem que já cobriu boa parte do corpo com tatuagens, bifurcou a língua e removeu parte do nariz, recentemente removeu um pedaço do lábio superior. Tudo isso para se transformar em um 'homem alienígena'.",
-        "Casal é preso pela 2ª vez por transar em público (agora em roda gigante).",
-        "Todas são verdadeiras."
       ]
     },
     {
