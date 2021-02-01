@@ -52,7 +52,6 @@ function ResultWidget({ results }) {
         <ul>{scoreDescription()}</ul>
       </Widget.Content>
       <GitHubCorner projectUrl="https://github.com/biacoelho" />
-      <QuizCorrectAnswersLink />
       <QuizPlayAgain href="/" />
     </Widget>
   );
@@ -214,7 +213,10 @@ function QuizPage({ externalQuestions, externalBg }) {
         )}
         {screenState === screenStates.LOADING && <LoadingWidget />}
         {screenState === screenStates.RESULT && (
-          <ResultWidget results={results} />
+          <>
+            <ResultWidget results={results} />
+            <QuizCorrectAnswersLink />
+          </>
         )}
       </QuizContainer>
     </QuizBackground>
