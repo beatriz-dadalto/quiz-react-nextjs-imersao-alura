@@ -27,6 +27,7 @@ Durante a [#imersãoAlura NextJS](https://www.alura.com.br/) realizada em 25/01/
 
 <br />
 Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algumas features ao projeto:
+
 <br />
 
 **1.** Opção para o jogador compartilhar o quiz nas redes sociais.
