@@ -186,7 +186,6 @@ function QuestionWidget({
           Confirmar →
         </Button>
       </AlternativesForm>
-      <GitHubCorner projectUrl="https://github.com/biacoelho" />
     </Widget>
   );
 }
@@ -246,6 +245,7 @@ function QuizPage({ externalQuestions, externalBg }) {
           </>
         )}
       </QuizContainer>
+      <GitHubCorner projectUrl="https://github.com/biacoelho" />
     </QuizBackground>
   );
 }
