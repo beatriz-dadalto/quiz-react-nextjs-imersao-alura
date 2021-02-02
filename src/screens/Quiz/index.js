@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import styled from 'styled-components';
+import { CheckCircle, Dislike } from '@styled-icons/boxicons-regular';
 import { Lottie } from '@crello/react-lottie';
 import QuizContainer from '../../components/QuizContainer';
 import QuizBackground from '../../components/QuizBackground';
@@ -13,6 +15,12 @@ import QuizPlayAgain from '../../components/QuizPlayAgain';
 import loadingAnimation from './animations/loading.json';
 import QuizCorrectAnswersLink from '../../components/QuizCorrectAnswersLink';
 import ShareSocialMedia from '../../components/ShareSocialMedia';
+
+const StatusAnswer = styled.span`
+  display: flex;
+  justify-content: center;
+  margin-bottom: -24px;
+`;
 
 function ResultWidget({ results }) {
   function getScore() {
@@ -49,7 +57,11 @@ function ResultWidget({ results }) {
       <Widget.Content>
         <h2>
           <strong>
-            {`Você acertou ${getScore() === 1 ? `${getScore()} Notícia` : `${getScore()} Notícias`}`}
+            {`Você acertou ${
+              getScore() === 1
+                ? `${getScore()} Notícia`
+                : `${getScore()} Notícias`
+            }`}
           </strong>
         </h2>
         <ul>{scoreDescription()}</ul>
@@ -157,12 +169,22 @@ function QuestionWidget({
             </Widget.Topic>
           );
         })}
+
+        {isQuestionSubmited && isCorrect && (
+          <StatusAnswer style={{ color: '#68DF03' }}>
+            <CheckCircle size={32} title="Right Answer" />
+          </StatusAnswer>
+        )}
+
+        {isQuestionSubmited && !isCorrect && (
+          <StatusAnswer style={{ color: '#9C0614' }}>
+            <Dislike size={32} title="Wrong Answer" />
+          </StatusAnswer>
+        )}
+
         <Button type="submit" disabled={!hasAlternativeSelected}>
           Confirmar →
         </Button>
-
-        {/* {isQuestionSubmited && isCorrect && <p>Você acertou!</p>} */}
-        {/* {isQuestionSubmited && !isCorrect && <p>Você errou!</p>} */}
       </AlternativesForm>
       <GitHubCorner projectUrl="https://github.com/biacoelho" />
     </Widget>
