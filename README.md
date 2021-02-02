@@ -58,8 +58,10 @@ Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algu
 
 <a href="https://linktr.ee/biacoelho">
  <img style="border-radius: 8px" src="https://avatars.githubusercontent.com/u/29661219?s=460&u=42024e42215c64adeba9a923579809c57f36fe0d&v=4" width="100px;" alt="Bia Coelho"/>
+<br />
 <sub><strong>Bia Coelho</strong></sub></a>
 
+<br />
 <br />
 
 👉 Entre em contato.
