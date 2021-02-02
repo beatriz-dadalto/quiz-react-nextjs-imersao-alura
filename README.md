@@ -25,11 +25,13 @@ Durante a [#imersãoAlura NextJS](https://www.alura.com.br/) realizada em 25/01/
 
 ### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--funcionalidades-extras) 📌 O que adicionei de diferente ao projeto
 
+<br />
 Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algumas features ao projeto:
+<br />
 
 **1.** Opção para o jogador compartilhar o quiz nas redes sociais.
 
-**2.** Ícones que demonstram se o jogador errou ou acertou, assim melhorando a experiencia do jogador.
+**2.** Ícones que demonstram se o jogador errou ou acertou, assim melhorando a experiência do jogador.
 
 **3.** Botão jogar de novo.
 
