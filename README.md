@@ -8,7 +8,7 @@
 </ol>
 
 <h1 style="padding: 50px; background: #333333;">
-    <img alt="noticiaverdadeira" title="#noticiaverdadeira" src="https://github.com/biacoelho/quiz-react-nextjs-imersao-alura/blob/main/quizImageDEMO.gif" />
+    <img alt="noticiaverdadeira" title="#noticiaverdadeira" src="https://github.com/biacoelho/quiz-react-nextjs-imersao-alura/blob/main/quizImageDEMO.gif" width=260px/>
 </h1>
 
 🌎 **Acesse agora:**
@@ -28,8 +28,11 @@ Durante a [#imersãoAlura NextJS](https://www.alura.com.br/) realizada em 25/01/
 Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algumas features ao projeto:
 
 **1.** Opção para o jogador compartilhar o quiz nas redes sociais.
+
 **2.** Ícones que demonstram se o jogador errou ou acertou, assim melhorando a experiencia do jogador.
+
 **3.** Botão jogar de novo.
+
 **4.** Gabarito com link que leva para a página da notícia provando a sua veracidade.
 
 <br />
@@ -53,16 +56,13 @@ Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algu
 
 ### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--autor) 💎 Autor
 
-<br />
-
 <a href="https://linktr.ee/biacoelho">
  <img style="border-radius: 8px" src="https://avatars.githubusercontent.com/u/29661219?s=460&u=42024e42215c64adeba9a923579809c57f36fe0d&v=4" width="100px;" alt="Bia Coelho"/>
- <br />
- <sub><strong>Bia Coelho</strong></sub></a>
+<sub><strong>Bia Coelho</strong></sub></a>
 
 <br />
 
- 👉 Entre em contato.
+👉 Entre em contato.
 
 <br />
 
