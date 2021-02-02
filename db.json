@@ -94,9 +94,10 @@
     }
   ],
   "external": [
-    "https://bitter-brewing-quiz.afuscella.vercel.app/",
+    "https://geoquiz.felipeseolin.vercel.app/",
     "https://chessquiz-alura.leo0liveira.vercel.app/",
-    "https://quiz-padrao-projetos.thassya.vercel.app/"
+    "https://quiz-padrao-projetos.thassya.vercel.app/",
+    "https://alura-quiz-linux.heinrick7.vercel.app/"
   ],
   "correctAnswerLink": [
     "https://noticias.uol.com.br/internacional/ultimas-noticias/2021/01/28/menina-de-12-anos-limpa-lapides-por-hobby-e-sonha-em-trabalhar-no-cemiterio.htm",
