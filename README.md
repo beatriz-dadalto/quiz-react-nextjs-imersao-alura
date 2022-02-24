@@ -13,17 +13,17 @@
 
 🌎 **Acesse agora:**
 
-- **[https://quiz-noticia-verdadeira.biacoelho.vercel.app](https://quiz-noticia-verdadeira.biacoelho.vercel.app/)**
+- **[https://quiz-noticia-verdadeira.vercel.app](https://quiz-noticia-verdadeira.vercel.app/)**
 
 <br />
 
-### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--sobre-o-projeto) 🔥 Sobre o projeto
+### [](https://github.com/beatrizdalto/quiz-react-nextjs-imersao-alura#--sobre-o-projeto) 🔥 Sobre o projeto
 
 Durante a [#imersãoAlura NextJS](https://www.alura.com.br/) realizada em 25/01/2021 a 29/01/2021 foi desenvolvido um app de perguntas e respostas. O tema era **livre** e escolhi pegar **notícias recentes** e fazer o meu Quiz.
 
 <br />
 
-### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--funcionalidades-extras) 📌 O que adicionei de diferente ao projeto
+### [](https://github.com/beatrizdalto/quiz-react-nextjs-imersao-alura#--funcionalidades-extras) 📌 O que adicionei de diferente ao projeto
 
 <br />
 
@@ -41,7 +41,7 @@ Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algu
 
 <br />
 
-### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--tecnologias) 🤖 Tecnologias
+### [](https://github.com/beatrizdalto/quiz-react-nextjs-imersao-alura#--tecnologias) 🤖 Tecnologias
 
 
 - **[ESLint](https://eslint.org/docs/user-guide/getting-started)**
@@ -58,12 +58,12 @@ Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algu
 
 <br />
 
-### [](https://github.com/biacoelho/quiz-react-nextjs-imersao-alura#--autor) 💎 Autor
+### [](https://github.com/beatrizdalto/quiz-react-nextjs-imersao-alura#--autor) 💎 Autor
 
-<a href="https://linktr.ee/biacoelho">
- <img style="border-radius: 8px" src="https://avatars.githubusercontent.com/u/29661219?s=460&u=42024e42215c64adeba9a923579809c57f36fe0d&v=4" width="100px;" alt="Bia Coelho"/>
+<a href="https://taggo.one/beatrizdalto">
+ <img style="border-radius: 8px" src="https://avatars.githubusercontent.com/u/29661219?s=460&u=42024e42215c64adeba9a923579809c57f36fe0d&v=4" width="100px;" alt="beatriz dalto"/>
 <br />
-<sub><strong>Bia Coelho</strong></sub></a>
+<sub><strong>Beatriz Dalto</strong></sub></a>
 
 <br />
 <br />
@@ -72,5 +72,5 @@ Além das funcionalidades que foram desenvolvidas nas aulas  eu incrementei algu
 
 <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/biacoelho)](https://www.linkedin.com/in/biacoelho)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatrizdalto)](https://www.linkedin.com/in/beatrizdalto)
 
